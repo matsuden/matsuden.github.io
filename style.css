@@ -256,4 +256,15 @@ footer {
   .contact-links .btn {
     width: 100%;
   }
+  
+}
+/* ───── ロゴ（ヒーロー部分） ───── */
+.hero-logo {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.hero-logo img {
+    width: 120px;  /* ロゴの大きさ調整 */
+    height: auto;
 }
