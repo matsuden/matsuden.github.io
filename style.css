@@ -1,0 +1,150 @@
+/* 全体の基本設定 */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Noto Sans JP", sans-serif;
+    color: #333;
+    background: #ffffff;
+}
+
+/* レイアウト用の共通クラス */
+.inner {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* ヘッダー */
+header {
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1d7cff; /* 青系アクセント */
+    margin: 0;
+}
+
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+header nav .btn {
+    background: #1d7cff;
+    color: #fff !important;
+    padding: 8px 14px;
+    border-radius: 6px;
+}
+
+/* ヒーローセクション（トップ） */
+.hero {
+    background: #f0f6ff; /* 淡い青系背景 */
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.hero-btn {
+    background: #1d7cff;
+    padding: 12px 20px;
+    border-radius: 6px;
+    color: #fff !important;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* セクション共通 */
+.section {
+    padding: 60px 0;
+}
+
+.section.light {
+    background: #fafafa;
+}
+
+.section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-left: 4px solid #1d7cff;
+    padding-left: 10px;
+}
+
+/* 事業内容のボックス */
+.service-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.service-box .item {
+    background: #e7f1ff;
+    border: 1px solid #cbdfff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* 会社概要テーブル */
+.company-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.company-table th, .company-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.company-table th {
+    width: 150px;
+    background: #f4f8ff;
+}
+
+/* お問い合わせボタン */
+.contact-links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contact-links .btn {
+    background: #1d7cff;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.contact-links .sub {
+    background: #555;
+    color: #fff;
+}
+
+/* フッター */
+footer {
+    background: #f2f2f2;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
