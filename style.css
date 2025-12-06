@@ -51,6 +51,12 @@ header {
   padding: 12px 24px;
 }
 
+.header-logo {
+    height: 36px;     
+    width: auto;
+    display: block;
+}
+
 .logo {
   margin: 0;
   font-size: 22px;
