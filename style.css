@@ -264,7 +264,9 @@ footer {
     margin-bottom: 16px;
 }
 
-.hero-logo img {
-    width: 120px;  /* ロゴの大きさ調整 */
+.hero-logo {
+    width: 80px;
     height: auto;
+    display: block;
+    margin: 0 auto 12px;
 }
